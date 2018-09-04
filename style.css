@@ -40,3 +40,12 @@ div:nth-child(3){
 div:nth-child(4){
 	background: aqua;
 }
+
+section{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+section.visible {
+    opacity: 1;
+}
