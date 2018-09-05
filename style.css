@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-div {
+div .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,6 +14,10 @@ div {
     height: 100vh;
 }
 
+.main{
+    display: none; 
+    flex-direction: column;
+}
 h2 {
     font-size: 60px;
     background: #eee;
@@ -21,8 +25,8 @@ h2 {
     border-radius: 16px;
 }
 
-div:nth-child(1) {
-	background-image: url(img/img-1.jpg);
+#parallax {
+	background-color: black;
 	background-size: cover;
 }
 
@@ -48,4 +52,14 @@ section{
 
 section.visible {
     opacity: 1;
+}
+.header{
+    background-color: white;
+    
+}
+h1 .word {
+/*    display: none;*/
+    color:black;
+    justify-content: center;
+    margin: auto 0;
 }
